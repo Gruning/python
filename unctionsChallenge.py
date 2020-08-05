@@ -10,3 +10,16 @@ helloFunction(name, age)
 sentence = helloFunction('john')
 
 print(sentence)
+
+#list
+
+dognames = ['fido', 'sean', 'sally', 'tobi']
+
+dognames.insert(0, 'pluto')
+print(dognames)
+del(dognames[3])
+print(dognames)
+print(dognames[2])
+dognames[0] = 'Frodo'
+print(dognames)
+print(len(dognames))
