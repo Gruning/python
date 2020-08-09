@@ -13,13 +13,27 @@ print(sentence)
 
 #list
 
-dognames = ['fido', 'sean', 'sally', 'tobi']
+dognamesList = ['fido', 'sean', 'sally', 'tobi']
 
-dognames.insert(0, 'pluto')
-print(dognames)
-del(dognames[3])
-print(dognames)
-print(dognames[2])
-dognames[0] = 'Frodo'
-print(dognames)
-print(len(dognames))
+dognamesList.insert(0, 'pluto')
+print(dognamesList)
+del(dognamesList[3])
+print(dognamesList)
+print(dognamesList[2])
+dognamesList[0] = 'Frodo'
+print(dognamesList)
+print(len(dognamesList))
+
+# for loop
+for dog in dognamesList:
+    print(dog)
+
+for y in range(5, 10):
+    print(y)
+
+for x in range(0, len(dognamesList)):
+    print(x)
+
+
+
+
