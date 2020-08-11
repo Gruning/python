@@ -1,6 +1,11 @@
 # first challenge
-name = 'Julie'
 
-age = '42'
+age = 20
+name = 'Matt'
 
-print(f'Hello, my  name is {name} and I`m {age} years old')
+
+def hello(name_parameter, age):
+    print('Hello {} you are {}'.format(name_parameter, age))
+
+
+hello('Marcus', 50)
