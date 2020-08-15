@@ -1,38 +1,23 @@
-age = 21
-name = 'Matt'
-todayIsCold = True
-
-def helloFunction(name, age=0):
-    return 'hello {0} you are {1} years old'.format(name, age)
-
-helloFunction(name, age)
-
-sentence = helloFunction('john')
-
-print(sentence)
-
-#list
-
 dognamesList = ['fido', 'sean', 'sally', 'tobi']
-
-dognamesList.insert(0, 'pluto')
-print(dognamesList)
-del(dognamesList[3])
-print(dognamesList)
-print(dognamesList[2])
-dognamesList[0] = 'Frodo'
-print(dognamesList)
-print(len(dognamesList))
 
 # for loop
 for dog in dognamesList:
     print(dog)
 
+# for in a range
 for y in range(5, 10):
-    print(y)
+    print('for loop 5 to 10 -->{}'.format(y))
 
 for x in range(0, len(dognamesList)):
     print(x)
+
+# while loop
+
+age = 0
+
+while age < 5:
+    print('WHILE loop ---> ', age)
+    age += 1
 
 # loops challenge
 # I have given you a list of ints called numbers. Print every number that is greater than 90.
@@ -41,5 +26,4 @@ numbers = [76, 83, 16, 69, 52, 78, 10, 77, 45, 52, 32, 17, 58, 54, 79, 72, 55, 5
 for number in numbers:
     if number > 90:
         print(number)
-
 
