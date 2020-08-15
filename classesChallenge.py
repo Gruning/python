@@ -71,3 +71,19 @@ class Fox:
 
 wildFox = Fox()
 wildFox.chase('rabbits.')
+# challenge: Add a method to the Car class called age that returns how old the car is (2020 - year)
+
+
+class Car:
+    def __init__(self, year, make, model):
+        self.year = year
+        self.make = make
+        self.model = model
+
+    def age(self):
+        old = 2020 - self.year
+        print('Age of the car : ', old)
+
+
+mySeventiesCar = Car(1970, 'ford', 'mustang')
+mySeventiesCar.age()
